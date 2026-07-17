@@ -25,7 +25,7 @@ from anthropic import Anthropic
 client = Anthropic()  # toma la key de la variable de entorno ANTHROPIC_API_KEY
 
 # Modelo más potente para planificar (el orquestador "piensa" el plan)
-ORCHESTRATOR_MODEL = "claude-opus-4-1-20250805"
+ORCHESTRATOR_MODEL = "claude-opus-4-8"
 # Modelo más económico/rápido para ejecutar cada subtarea en paralelo
 WORKER_MODEL = "claude-haiku-4-5-20251001"
 
